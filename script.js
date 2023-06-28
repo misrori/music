@@ -3,7 +3,7 @@ window.addEventListener('load', () => {
   const audioPlayer = document.getElementById('audioPlayer');
   const prevButton = document.getElementById('prevButton');
   const nextButton = document.getElementById('nextButton');
-  const soundsFolder = './sounds/';
+  const soundsFolder = 'sounds/';
 
   // Fetch the song files
   fetch(soundsFolder)
