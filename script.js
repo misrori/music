@@ -3,7 +3,7 @@ window.addEventListener('load', () => {
   const audioPlayer = document.getElementById('audioPlayer');
 
   // Fetch the song files
-  fetch('www/sounds/')
+  fetch('sounds/')
     .then(response => response.text())
     .then(text => {
       // Parse the HTML response and extract the song file names
